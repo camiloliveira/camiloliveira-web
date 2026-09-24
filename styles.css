@@ -412,6 +412,11 @@ p.modal-content + p {
     max-width: 380px;
   }
 
+  #color option:disabled {
+    color: #999999;
+    text-decoration: line-through;
+  }
+
   .close {
     color: #000;
     font-size: 36px;
